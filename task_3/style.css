@@ -1,0 +1,131 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all .65s ease;
+  box-sizing: border-box;
+}
+
+body {
+  background: #a8dba8;
+  font-family: Helvetica;
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #90be90;
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  }
+  @media (max-width: 700px) {
+    .site-title, .site-tagline {
+      width: 100%;
+      text-align: center;
+    }
+    .site-title {
+      margin: 0;
+    }
+}
+
+.site-title, h1, h2, h3 {
+  font-family: heading-font-family;
+  font-size: 42px;
+  color: darken(lightblue, 75%);
+}
+h3 {
+  font-size: 32px;
+  color: desaturate(salmon, 10%);
+}
+.site-title {
+  color: white;
+  text-align: center;
+}
+.site-tagline {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.main-nav {
+  background: #3b8686;
+  color: white;
+  transition: none;
+}
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .main-nav ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main-nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  .main-nav ul a {
+      padding: 12px;
+      display: flex;
+      text-transform: uppercase;
+    }
+      .hover, .focus {
+        background: lighten(yellow, 25%);
+        color: lighten(darkblue, 25%);
+      }
+
+.columns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+  .columns .item {
+    padding: 25px;
+    max-width: 47%;
+    background: #cff09e;
+    color: darkblue;
+    border-bottom: 5px solid #79bd9a;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+  }
+    .columns .item .item-title {
+      color: darken(#79bd9a, 85%);
+      font-size: 24px;
+      margin: 0 0 5px 0;
+      font-family: heading-font-family;
+    }
+    .thirds .item {
+        max-width: 31%;
+     }
+     
+     @media (max-width: 770px) {
+       .item {
+         max-width: 48%;
+       }
+       @media (max-width: 660px) {
+       .item {
+         max-width: 100%;
+         width: 100%;
+       }
+     }
+    }
+
+.footer {
+  background: #3b8686;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.time {
+  text-align: center;
+}

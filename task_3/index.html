@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>biodata</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="header">
+        <div class="container">
+			<h1 class="site-title"> all about me </h1>
+			<h1 id="teks"> </h1>
+      </div>
+    </header>
+
+	<nav class="main-nav">
+		<div class="container">
+			<ul>
+				<li class="mobile-button"><a href="#">Menu</a></li>
+				<li><a href="#columns about">About</a></li>
+				<li><a href="#item education">Education</a></li>
+				<li><a href="#item hobbies">Hobbies</a></li>
+				<li><a href="#item random">Random</a></li>
+				<li><a href="#item caption">Caption</a></li>
+		  </ul>
+		</div>
+	</nav>
+	  
+	<section class="content">
+		<article class="post">
+		  <div class="container">
+			<br>
+			<div class="columns about">
+			  <div class="item">
+				<h4 class="item-title">Tentang Saya</h4>
+				<p id="about">Hi! saya adalah seorang mahasiswa. Saat ini sedang belajar HTML.
+					Saya masih baru belajar, agar bisa menguasai bahasa HTML, CSS, dan Javascript untuk bisa menjadi seorang Web Developer ya teman-teman.
+					Selain itu, hobi saya menulis, editing video, membaca, serta menggambar!
+				</p>
+			</div>
+
+			<div class="item education">
+				<h4 class="item-title">Education</h4>
+				<p>	
+				<dl>
+					<dt>
+						Institut Teknologi Sumatera
+						<small>(<b>Informatics Engineering, 2020-until now</b>)</small>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						St. Ignasius Senior High School
+						<small>(<b>Since 2017-2020 - Graduated</b>)</small>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						Putri Cahaya Junior High School
+						<small>(<b>Since 2013-2017 - Graduated</b>)</small>
+					</dt>
+				</dl>
+				<dl>
+					<dt>
+						St. Antonius Primary School
+						<small>(<b>Since 2008-2013 - Graduated</b>)</small> 
+					</dt>
+				</dl></p>
+			</div>
+		  </div>   
+		</article>
+		
+		<article class="post">
+			<div class="container">
+				<div class="columns thirds">
+					<div class="item hobbies">
+						<h4 class="item-title">Hobbies</h4>
+						<ul>
+							<li>Menulis</li>
+							<li>Menggambar</li>
+							<li>Mendengarkan Musik</li>
+							<li>Membaca: Novel, Webtoon</li>
+							<li>Editing Video</li>
+							<li>Menonton: Drama, YouTube, Netflix</li>
+						</ul>
+						<br>
+						<p>Klik button dibawah untuk menambah list baru</p>
+						<button  id="tambah">Click Here</button>
+					</div>
+					
+					<div class="item random">
+						<h4 class="item-title">Random</h4>
+						<p>Beautiful life, beautiful heart
+							From the bright side of life, look at yourself with no shame
+							Even among the dimming of everyone's own light
+							Those rising targets
+							I hope you'll shine more and more brightly in your own color
+							This time you can face the rain
+							Next time you can beat the pain
+							No more tears will come again
+							Smiling, laughing to the end (Yeah)
+							*Put your bags down
+							Hand me all your heavy thoughts
+							Stay still, time in a bottle
+							You can only see it when you look at yourself
+						</p>
+					</div>
+					
+					<div class="item caption">
+        				<h4 class="item-title">Caption</h4>
+						<p>Those stars that shine when the night falls
+							That sun that only leaves behind the sunset glow
+							They all have their unique colors
+							Beautiful, beautiful, yeah
+							Why is it that, when everything in the world takes its right place
+							It shines more beautifully?
+							You are enough just the way you are
+							Beautiful, beautiful you are
+							The despair of not having your own things
+							Made you envy somebody else
+							The things you own, others will never have, yeah
+							Come raise your head, look around
+							There are people who only look at you
+							A person receives a one-and-only love
+							And that person is you
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<div class="time">
+		<p id="waktu"></p>
+		<button onclick="displayDate()">Click here</button>
+	</div>
+	<br>
+	<footer class="footer">
+		<div class="container">
+			<p>Copyright &copy; 2022 Noviana Gresita</p>
+		</div>
+	</footer>
+</body>
+<script src="javascript.js" defer></script>
+</html>
