@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Website</title>
+</head>
+<body>
+	<img src="images/profil.png" width="200" alt="Photo ProfiLe Penulis">
+	<h1>Hi! Saya Noviana Gresita</h1>
+	<p>Temukan hal menarik lainnya tentang saya</p>
+	<ul>
+		<li><a href="biodata.html">CV</a></li>
+		<li><a href="index.html">Online Book</a></li>
+		<li><a href="https://itsmenovv.carrd.co/">Carrd penulis</a></li>
+	</ul>
+
+	<h2>Tentang Saya</h2>
+	<p>Hi! saya adalah seorang mahasiswa. Saat ini sedang belajar HTML.</p>
+	<p>Saya masih baru belajar, agar bisa menguasai bahasa HTML, CSS, dan Javascript untuk bisa menjadi seorang Web Developer ya teman-teman.</p>
+	<p>Selain itu, hobi saya menulis, editing video, membaca, serta menggambar! Beberapa hasilnya sudah saya cantumkan di website ini.</p>
+
+	<h2>Pengalaman</h2>
+	<table>
+		<tr>
+			<td rowspan="2">No</td>
+			<td rowspan="2">Skill</td>
+			<td rowspan="2">Pengalaman</td>
+			<td colspan="2">Waktu</td>
+		</tr>
+		<tr>
+			<td>Mulai</td>
+			<td>Selesai</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>C++</td>
+			<td>Membuat program tubes PKS</td>
+			<td>April 2021</td>
+			<td>Mei 2021</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Python</td>
+			<td>Membuat game bersama team</td>
+			<td>Maret 2022</td>
+			<td>Mei 2022</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>HTML</td>
+			<td>Membuat halaman Web dasar</td>
+			<td>September 2022</td>
+			<td>Desember 2022</td>
+		</tr>
+	</table>
+
+	<h4>Wah, Helikopter sebenarnya terinspirasi dari bentuk Capung lho! Teman-teman, simak penjelasan video berikut yuk!</h4>
+	<video controls width="800">
+		<source src="video/biomimikri.mp4" type="video/mp4">
+			Browsermu tidak mendukung memutar video
+	</video>
+
+	<form>
+		<p>
+			<label>Apakah kamu sudah menonton video diatas?</label> <br>
+		<label><input type="radio" name="pertanyaan" value="sudah">sudah</label>
+		<label><input type="radio" name="pertanyaan" value="belum">belum</label>
+		</p>
+		<p></p>
+		<p>
+			<label>Video selanjutnya ingin membahas tentang apa?</label> <br>
+			<input type="checkbox" name="topik" value="Biologi">Biologi
+			<input type="checkbox" name="topik" value="Fisika">Fisika
+			<input type="checkbox" name="topik" value="Kimia">Kimia
+			<input type="checkbox" name="topik" value="Matematika">Matematika
+		</p>
+		<p>
+			<label>Ingin mendapat notifikasi update terbaru?</label>
+            <select name="pertanyaan">
+                <option value="ya">Ya</option>
+                <option value="tidak">Tidak</option>
+            </select>
+		</p>
+		<p>
+            <input type="submit" name="submit" value="Kirim" />
+        </p>
+	</form>
+
+	<h2>Hubungi Saya</h2>
+	<div>
+		<form>
+			<div>
+				<label for="email">Email</label> <br>
+				<input type="text" name="email" id="email"> <br> <br>
+			</div>
+			<div>
+				<label for="message">Message Me</label> <br>
+				<textarea name="message" placeholder=" Masukkan kritik dan saran" rows="4" cols="70" id="message"></textarea>
+			</div>
+		</form>
+	</div>
+
+	<audio controls>
+    	<source src="music/wegoup.mp3" type="audio/mpeg">
+    		Browsermu tidak mendukung tag audio
+  	</audio>
+
+	<footer>
+        <p>Copyright &copy; 2022 Noviana Gresita</p>
+    </footer>
+</body>
+</html>
