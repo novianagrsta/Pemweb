@@ -1,0 +1,291 @@
+.body {
+    width: 100%;
+    min-width: 320px;
+    font-family: "Nanum Gothic","arial","Helvetica","Helvetica Neue","sans-serif","AppleGothic","applegothic", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 180px;
+    background-color: aliceblue;
+}
+
+.header .logo img {
+    width: 285px;
+    display: block;
+    float: left;
+}
+
+.header .h1{
+    text-align: center;
+}
+
+.menu {
+    overflow: hidden;
+    padding: 20px 10px;
+    float: right;
+  }
+
+  .menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .menu a:hover {
+    color: black;
+  }
+  
+  .menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+}
+
+.container .box {
+    border: #e9e9e9 1px solid;
+    margin: 0;
+    padding: 20px 18px;
+    width: 190px;
+    position: absolute;
+}
+
+.container .education {
+    border: #e9e9e9 1px solid;
+    margin: 0;
+    padding: 20px 18px;
+    height: 190px;
+    background-color: aliceblue;
+}
+
+.container .box.newactivity {
+    padding: 0 0 10px 0;
+    width: 234px;
+}
+
+.container .newactivity {
+    height: 220px;
+    overflow: hidden;
+}
+
+.container .mv {
+    left: 550px;
+}
+
+.container .magazine {
+    left: 820px;
+}
+
+.container .mv2 {
+    left: 1100px;
+}
+
+.container .box {
+    border: #e9e9e9 1px solid;
+    margin: 0;
+    position: absolute;
+}
+
+.container .newactivity a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.container .newactivity .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.container .newactivity .title {
+    margin-top: 5px;
+    padding: 0 12px;
+    font-family: "SMTOWN","Merriweather Sans";
+    font-weight: 700;
+    font-size: 12px;
+    color: #3f3f3f;
+}
+
+.container .newactivity .artikel {
+    padding: 2px 12px 0;
+    font-size: 12px;
+    color: #6d6d6d;
+    line-height: 16px;
+    height: 47px;
+    overflow: hidden;
+}
+
+.container .experience .daftar h2{
+    float: left;
+    position: absolute;
+    top: 530px;
+}
+
+.container .experience .daftar table {
+    border: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+}
+
+.container .experience .daftar h3{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+}
+.container .experience .daftar iframe {
+    width: 735px;
+    height: 450px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+.container .medsos{
+    float: left;
+    position: absolute;
+    top: 780px;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black;
+}
+
+input {
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    
+  }
+
+.footer .media {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+ul, dl {
+    list-style: none;
+}
+.footer .media ul {
+    border-left: #e9e9e9 1px solid;
+}
+
+.footer .media ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.footer .media ul li a {
+    padding: 12px 0 5px 0;
+    display: block;
+    border: #e9e9e9 0px solid;
+    border-left: none;
+}
+
+.footer .media ul li a img {
+    display: block;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (min-width: 1000px) {
+    .full {
+        width: 800px;
+        height: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(192, 192, 236);
+    }
+
+    .education-box {
+        width: 300px;
+        height: auto;
+    }
+    .container .mv {
+        left: 820px;
+    }
+    .container .magazine{
+        left: 545px;
+        position: relative;
+        top: 270px;
+    }
+    .container .mv2 {
+        left: 545px;
+        position: relative;
+        top: 300px;
+    }
+    table {
+        width: 530px;
+        
+    }
+    .container .experience .daftar table{
+        top: 560px;
+        left: 275px;
+        position: absolute;
+    }
+    .container .experience .daftar h2{
+        top: 500px;
+        left: 275px;
+        position: absolute;
+    }
+    .container .experience .daftar iframe {
+        width: 530px;
+        height: 230px;
+        position: absolute;
+        top: 800px;
+        left: 275px;
+    }
+    .container .experience .daftar .title{
+        position: absolute;
+        top: 745px;
+        left: 275px;
+    }
+    .footer {
+        width: 800px;
+        left: 275px;
+    }
+    .container .medsos{
+        top: 1040px;
+        left: 380px;
+    }
+    form{
+        width: 600px;
+    }
+}
