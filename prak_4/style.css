@@ -1,0 +1,344 @@
+:root {
+    --first-color: rgba(87, 87, 87, 0.685);
+    --second-color: white;
+    --third-color: black;
+    --fourth-color: black;
+    --fifth-color: #ffffff;
+    --sixth-color: #ffffff;
+    --seventh-color: #ffffff;
+    --eight-color:#ebe5e5;
+    --nineth-color: #ebe5e5;
+    --ten-color: black;
+}
+.lightmode {
+    --first-color: aliceblue;
+    --second-color: black;
+    --third-color: rgb(192, 192, 236);
+    --fourth-color: #04AA6D;
+    --fifth-color: #e9e9e9;
+    --sixth-color: #3f3f3f;
+    --seventh-color: dodgerblue;
+    --eight-color:#6d6d6d;
+    --nineth-color: blue;
+    --ten-color: white;
+}
+
+
+.body {
+    width: 100%;
+    min-width: 320px;
+    font-family: Arial, "cursive", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: var(--first-color);
+}
+
+.header img{
+    width: 285px;
+}
+
+.header .logo img {
+    width: 239px;
+    display: block;
+    float: left;
+}
+
+.header .h1{
+    text-align: center;
+}
+
+.menu {
+    overflow: hidden;
+    padding: 20px 10px;
+    float: right;
+  }
+
+  .menu a {
+    float: left;
+    color: var(--second-color);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .menu a:hover {
+    color: var(--second-color);
+  }
+  
+  .menu a.active {
+    background-color: var(--fourth-color);
+    color: white;
+  }
+}
+
+.container .box {
+    border:  1px solid;
+    margin: 0;
+    padding: 20px 18px;
+    width: 190px;
+    position: absolute;
+}
+
+.container .profile h2{
+    color: var(--second-color);
+}
+
+.container .education {
+    border: var(--fifth-color) 1px solid;
+    margin: 0;
+    padding: 20px 18px;
+    height: 190px;
+    background-color: var(--first-color);
+    color: var(--second-color);
+}
+
+.container .box.newactivity {
+    padding: 0 0 10px 0;
+    width: 234px;
+}
+
+.container .newactivity {
+    height: 220px;
+    overflow: hidden;
+}
+
+.container .mv {
+    left: 550px;
+}
+
+.container .magazine {
+    left: 820px;
+}
+
+.container .mv2 {
+    left: 1100px;
+}
+
+.container .box {
+    border: var(--fifth-color) 1px solid;
+    margin: 0;
+    position: absolute;
+}
+
+.container .newactivity a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.container .newactivity .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.container .newactivity .title {
+    margin-top: 5px;
+    padding: 0 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--sixth-color);
+}
+
+.container .newactivity .artikel {
+    padding: 2px 12px 0;
+    font-size: 12px;
+    color: var(--eight-color);
+    line-height: 16px;
+    height: 47px;
+    overflow: hidden;
+}
+
+.container .experience .daftar h2{
+    float: left;
+    position: absolute;
+    top: 530px;
+    color: var(--second-color);
+}
+
+.container .experience .daftar table {
+    border: none;
+    background-color: var(--first-color);
+    color: var(--second-color);
+    border-radius: 10px;
+    position: absolute;
+    top: 600px;
+}
+
+.container .experience .daftar h3{
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    color: var(--second-color);
+}
+.container .experience .daftar iframe {
+    width: 735px;
+    height: 450px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+.container .medsos{
+    float: left;
+    position: absolute;
+    top: 780px;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: var(--first-color);
+    border-radius: 20px;
+    color: var(--second-color);
+}
+
+input {
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    background-color: var(--nineth-color);
+    color: var(--ten-color);
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--first-color);
+    color: var(--second-color);
+    text-align: center;
+    
+  }
+
+.footer .media {
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+
+ul, dl {
+    list-style: none;
+}
+.footer .media ul {
+    border-left: var(--fifth-color) 1px solid;
+}
+
+.footer .media ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.footer .media ul li a {
+    padding: 12px 0 5px 0;
+    display: block;
+    border: var(--fifth-color) 0px solid;
+    border-left: none;
+}
+
+.footer .media ul li a img {
+    display: block;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (min-width: 1000px) {
+    .full {
+        width: 800px;
+        height: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--third-color);
+    }
+
+    .header h2{
+        position: relative;
+        top: 20px;
+        left: 200px;
+        font-style: italic;
+        font-size: larger;
+        color: var(--seventh-color);
+    }
+
+    .header img#icon{
+        position: absolute;
+        width: 100px;
+        top: 90px;
+        left: 970px;
+    }
+
+    .education-box {
+        width: 300px;
+        height: auto;
+    }
+    .container .mv {
+        left: 820px;
+    }
+    .container .magazine{
+        left: 545px;
+        position: relative;
+        top: 270px;
+    }
+    .container .mv2 {
+        left: 545px;
+        position: relative;
+        top: 330px;
+    }
+    table {
+        width: 530px;
+        
+    }
+    .container .experience .daftar table{
+        top: 560px;
+        left: 275px;
+        position: absolute;
+    }
+    .container .experience .daftar h2{
+        top: 500px;
+        left: 275px;
+        position: absolute;
+    }
+    .container .experience .daftar iframe {
+        width: 530px;
+        height: 230px;
+        position: absolute;
+        top: 800px;
+        left: 275px;
+    }
+    .container .experience .daftar .title{
+        position: absolute;
+        top: 745px;
+        left: 275px;
+    }
+    .footer {
+        width: 800px;
+        left: 275px;
+    }
+    .container .medsos{
+        top: 1040px;
+        left: 380px;
+    }
+    form{
+        width: 600px;
+    }
+}
