@@ -1,3 +1,1 @@
-Noviana Gresita Br. Perangin-Angin
-120140239
-Praktikum Pemrograman RC
+Noviana Gresita Br. Perangin-Angin_120140239_Praktikum Pemrograman RC
